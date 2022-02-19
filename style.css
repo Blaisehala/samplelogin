@@ -146,3 +146,20 @@ button{
   float: right;
   margin-top: 10px;
 }
+
+
+@media screen and (max-width:480px) {
+  form{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: 0BB664;
+    padding: 20px;
+    height: 620px;
+    width: 350px;
+    border-style: none;
+    opacity: 0.8;
+
+
+  }
